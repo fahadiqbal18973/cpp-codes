@@ -2,11 +2,17 @@
 using namespace std;
 
 int main(){
-    cout << (3 < 5) << endl; // true, outputs 1
-    cout << (3 > 5) << endl; // false, outputs 0
-    cout << (3 == 5) << endl; // false, outputs 0
-    cout << (3 != 5) << endl; // true, outputs 1
+    int n;
+    cout << "Enter any number:";
+    cin >> n;
+
+    if(n % 2 == 0){
+        cout << n << " is an even number "<< endl;
+    }else{
+        cout << n << " is an odd number "<< endl;
+    }
 return 0;
 }
+
 
 
