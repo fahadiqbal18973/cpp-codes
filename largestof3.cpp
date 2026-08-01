@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-  int a , b , c;
+  int x , y , z;
   cout << "Enter three numbers: ";
-  cin >> a >> b >> c;
-  if ( a > b && a > c){
-    cout << "Largest number : " << a << endl;
-  } else if ( b > a && b > c){
-    cout << "Largest number : " << b << endl;
+  cin >> x >> y >> z;
+  if ( x > y && x > z){
+    cout << "Largest number : " << x << endl;
+  } else if ( y > x && y > z) {
+    cout << "Largest number : " << y << endl;
   } else {
-    cout << "Largest number : " << c << endl;
+    cout << "Largest number : " << z  << endl;
   }
   return 0;
 }
